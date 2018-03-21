@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Budget App</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap-reboot.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-2 sidenav">
+        <div class="row">
+          <div class="col-sm-3 col-md-12 my-3 text-center">
+              <a href="#"></a>
+              <img src="image/logo.png" alt="FINANCE" id="logo-brand">
+          </div>
+        </div>
+        <div class="row my-5">
+          <ul>
+            <li><span><img src="icon/dashboard.png" alt="FINANCE" class="icon ml-3 mr-md-2"></span><a href="#" class="icon-text">Dashboard</a></li>
+            <li class="mt-md-3"><span><img src="icon/request.png" alt="FINANCE" class="icon ml-3 mr-md-2"></span><a href="#" class="icon-text">Request</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-10">
+        <div class="row">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle mr-md-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filter
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row my-5">
+          <div class="container-fluid">
+              <div class="container">
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0 text-center">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          2018
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">January</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">February</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">March</button>
+                            </div>
+                          </div>
+                          <div class="row mt-md-2">
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">April</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">May</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">June</button>
+                            </div>
+                          </div>
+                          <div class="row mt-md-2">
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">July</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">August</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">September</button>
+                            </div>
+                          </div>
+                          <div class="row mt-md-2">
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">October</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">November</button>
+                            </div>
+                            <div class="col-sm-6 col-md-3 ml-md-5">
+                                <button type="button" class="btn btn-light btn-lg" name="button">December</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mt-md-5">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0 text-center">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          2019
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">January</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">February</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">March</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">April</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">May</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">June</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">July</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">August</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">September</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">October</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">November</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">December</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mt-md-5">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0 text-center">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          2020
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">January</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">February</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">March</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">April</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">May</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">June</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">July</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">August</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">September</button>
+                          </div>
+                        </div>
+                        <div class="row mt-md-2">
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">October</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">November</button>
+                          </div>
+                          <div class="col-sm-6 col-md-3 ml-md-5">
+                              <button type="button" class="btn btn-light btn-lg" name="button">December</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

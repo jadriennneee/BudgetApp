@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+html, body{
+  height: auto;
+  background-color: rgb(248, 248, 248) !important;
+}
+.sidenav{
+  background-color: rgb(255, 255, 255) !important;
+  height: 100vh;
+}
+#logo-brand{
+  height: 12vh;
+  width: 8vw;
+}
+.icon{
+  height: 2vh;
+  width: 1vw;
+}
+.icon-text{
+  font-family: Helvetica;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #333;
+}
+.filter{
+  width: 10vw;
+}
+.expenses{
+  height: 15vh;
+  background-color: #333;
+}
+.rBudget{
+  height: 15vh;
+  background-color: yellow;
+}
+.tBudget{
+  height: 15vh;
+  background-color: red;
+}
+.test{
+  height: 20vh;
+  background-color: red;
+}
+.month-summary{
+  width: 90% !important;
+  height: auto;
+  background-color: transparent;
+}
